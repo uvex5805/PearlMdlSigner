@@ -39,6 +39,10 @@ PRL-адрес должен принадлежать открытому коше
 
 Важно: копируйте именно PRL-адрес из открытого Pearl Wallet. Не используйте MDL-адрес вместо PRL-адреса.
 
+Если вы получили новый PRL-адрес, сначала запустите майнинг с этим новым адресом, чтобы он появился на pool.
+
+MDL-адрес нужно подписывать тем PRL-аккаунтом, который есть на pool.
+
 ## 5. Запустите скрипт
 
 1. В распакованной папке дважды нажмите `start_MDL_sign.cmd`.
@@ -153,6 +157,10 @@ The script will add the required `I set` text before the MDL address automatical
 3. Copy your PRL address.
 
 Important: copy the PRL address from the opened Pearl Wallet. Do not use the MDL address instead of the PRL address.
+
+When you receive a new PRL address, start mining with that new address first so it appears on the pool.
+
+The MDL address must be signed from the PRL account that is on the pool.
 
 ## 5. Run the script
 
