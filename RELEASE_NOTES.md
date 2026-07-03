@@ -33,7 +33,8 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 - `start_MDL_sign.cmd` - launcher for double-click start.
 - `sign-mdl.ps1` - main PowerShell script.
 - `README.md` - Russian and English instructions.
-- `STEP_BY_STEP.md` - full Russian and English guide from the beginning.
+
+Full step-by-step guide is in the release description and in `STEP_BY_STEP.md` in the repository.
 
 ## Safety
 
