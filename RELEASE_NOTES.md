@@ -2,6 +2,12 @@
 
 This release contains a portable Windows script for signing an MDL address through an open Desktop Pearl Wallet.
 
+Get or verify the MDL address here:
+
+```text
+https://compute.modeloslab.xyz/wallet
+```
+
 ## What it does
 
 - Signs the official Pearl message format:

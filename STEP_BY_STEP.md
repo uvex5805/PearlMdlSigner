@@ -68,7 +68,12 @@ prl1...
 
 ## 5. Получите MDL-адрес
 
-1. Откройте страницу, где нужно подтвердить кошелек.
+1. Откройте страницу, где нужно получить или подтвердить MDL-адрес:
+
+```text
+https://compute.modeloslab.xyz/wallet
+```
+
 2. Скопируйте MDL-адрес из серого блока.
 3. MDL-адрес обычно начинается с:
 
@@ -330,7 +335,12 @@ If you see `no private key`, it almost always means the selected PRL address doe
 
 ## 5. Get the MDL address
 
-1. Open the page where you need to verify your wallet.
+1. Open the page where you need to get or verify your MDL address:
+
+```text
+https://compute.modeloslab.xyz/wallet
+```
+
 2. Copy the MDL address from the gray box.
 3. The MDL address usually starts with:
 

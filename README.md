@@ -27,7 +27,8 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 1. Windows PowerShell 5.1 или новее.
 2. Открытый Desktop Pearl Wallet с выбранным нужным кошельком.
 3. PRL-адрес, который принадлежит открытому кошельку.
-4. Заполненный `sign-input.txt` или ручной ввод адресов при запуске.
+4. MDL-адрес со страницы `https://compute.modeloslab.xyz/wallet`.
+5. Заполненный `sign-input.txt` или ручной ввод адресов при запуске.
 
 ## Перенос на другой компьютер
 
@@ -175,7 +176,8 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 1. Windows PowerShell 5.1 or newer.
 2. Desktop Pearl Wallet must be open with the required wallet selected.
 3. The PRL address must belong to the opened wallet.
-4. A completed `sign-input.txt` file or manual address input during launch.
+4. The MDL address from `https://compute.modeloslab.xyz/wallet`.
+5. A completed `sign-input.txt` file or manual address input during launch.
 
 ## Moving to Another Computer
 
