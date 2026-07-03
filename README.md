@@ -113,6 +113,7 @@ prl_multi_2+mdl_5vrk0m.txt
 - PRL-адрес должен принадлежать открытому кошельку.
 - Если вы получили новый PRL-адрес, сначала запустите майнинг с этим новым адресом, чтобы он появился на pool.
 - MDL-адрес нужно подписывать тем PRL-аккаунтом, который есть на pool.
+- Если вы используете PRL и MDL Windows wallets, они не могут работать одновременно, потому что используют один и тот же порт.
 - Подпись не отправляет транзакцию в сеть.
 - Подпись не списывает PRL.
 - Не вводите seed-фразу и private key.
@@ -242,6 +243,7 @@ Main rule: Pearl Wallet and the script must run with the same permissions.
 - The PRL address must belong to the opened wallet.
 - When you receive a new PRL address, start mining with that new address first so it appears on the pool.
 - The MDL address must be signed from the PRL account that is on the pool.
+- Please note that the PRL and MDL Windows wallets cannot connect at the same time because they use the same port.
 - Signing does not send a transaction to the network.
 - Signing does not spend PRL.
 - Do not enter your seed phrase or private key.

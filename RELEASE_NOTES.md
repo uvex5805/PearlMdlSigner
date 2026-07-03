@@ -4,6 +4,8 @@ This release contains a portable Windows script for signing an MDL address throu
 
 Desktop Pearl Wallet must be fully synchronized before signing.
 
+Please note that the PRL and MDL Windows wallets cannot connect at the same time because they use the same port.
+
 Important pool note:
 
 - When you receive a new PRL address, start mining with that new address first so it appears on the pool.

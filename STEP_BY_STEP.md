@@ -14,6 +14,8 @@
 
 PRL-адрес должен принадлежать открытому кошельку. Если адрес не из этого кошелька, будет ошибка `no private key`.
 
+Если вы используете PRL и MDL Windows wallets, они не могут работать одновременно, потому что используют один и тот же порт.
+
 ## 2. Скачайте и распакуйте скрипт
 
 1. Откройте страницу релиза GitHub.
@@ -132,6 +134,8 @@ This guide describes the whole process from the beginning. You do not need to co
 5. Do not close Pearl Wallet until signing is finished.
 
 The PRL address must belong to the opened wallet. If the address is not from this wallet, you will get `no private key`.
+
+Please note that the PRL and MDL Windows wallets cannot connect at the same time because they use the same port.
 
 ## 2. Download and extract the script
 
