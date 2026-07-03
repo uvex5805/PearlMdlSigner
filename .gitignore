@@ -1,4 +1,6 @@
 cli/
+release/
+*.zip
 prl_*.txt
 prl+mdl_*.txt
 *.log
