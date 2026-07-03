@@ -1,4 +1,4 @@
-# Automatic MDL Address Signing Through Pearl Wallet
+﻿# Automatic MDL Address Signing Through Pearl Wallet
 
 This release contains a portable Windows script for signing an MDL address through an open Desktop Pearl Wallet.
 
@@ -26,6 +26,7 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 - `sign-mdl.ps1` - main PowerShell script.
 - `sign-input.txt` - optional MDL/PRL input file.
 - `README.md` - Russian and English instructions.
+- `STEP_BY_STEP.md` - full Russian and English guide from the beginning.
 
 ## Safety
 

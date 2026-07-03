@@ -2,6 +2,8 @@
 
 Автоматическая подпись MDL-адреса через открытый Desktop Pearl Wallet.
 
+[Пошаговая инструкция с самого начала](STEP_BY_STEP.md)
+
 [English version](#english-version)
 
 ## Русская версия
@@ -34,6 +36,9 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 В папке должны быть файлы:
 
 ```text
+README.md
+RELEASE_NOTES.md
+STEP_BY_STEP.md
 start_MDL_sign.cmd
 sign-mdl.ps1
 sign-input.txt
@@ -149,6 +154,8 @@ prl_multi_2+mdl_5vrk0m.txt
 
 Automatic MDL address signing through an open Desktop Pearl Wallet.
 
+[Full step-by-step guide from the beginning](STEP_BY_STEP.md)
+
 This script signs an MDL address through an open Desktop Pearl Wallet and saves the result to a text file.
 
 The script does not sign the bare MDL address. It signs this message:
@@ -177,6 +184,9 @@ Copy the whole `PearlMdlSigner` folder to any location, for example to Desktop.
 The folder must contain these files:
 
 ```text
+README.md
+RELEASE_NOTES.md
+STEP_BY_STEP.md
 start_MDL_sign.cmd
 sign-mdl.ps1
 sign-input.txt
