@@ -277,3 +277,19 @@ It does not send transactions and does not ask for your seed phrase or private k
 The code is open inside the project folder. You can review it manually before running.
 
 If you have any doubts, check the code yourself or wait for official instructions.
+
+## About Scam Warnings
+
+Be careful with scams. If you are not sure what a script does, you should always wait for official instructions or review the code first.
+
+This script follows the official Pearl signing instruction exactly. It runs the same operation as:
+
+```powershell
+prlctl --wallet signmessage "prl1..." "I set mdl1..."
+```
+
+The script only automates this local wallet command. It signs the required message with your open Pearl Wallet, saves the signature to a text file, and does not send any transaction.
+
+The script never asks for your seed phrase or private key. It only asks for the wallet password when Pearl Wallet needs to be unlocked for signing.
+
+The code is open in this folder, so anyone can inspect it before running. If you have any doubts, please check the code yourself or wait for official guidance.
