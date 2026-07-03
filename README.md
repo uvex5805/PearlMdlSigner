@@ -1,6 +1,12 @@
-﻿# Автоматическая подпись MDL-адреса через Pearl Wallet
+﻿# Pearl MDL Signer
 
-Скрипт автоматически подписывает MDL-адрес через открытый Desktop Pearl Wallet и сохраняет результат в текстовый файл.
+Автоматическая подпись MDL-адреса через открытый Desktop Pearl Wallet.
+
+[English version](#english-version)
+
+## Русская версия
+
+Скрипт подписывает MDL-адрес через открытый Desktop Pearl Wallet и сохраняет результат в текстовый файл.
 
 Подписывается не сам MDL-адрес, а сообщение:
 
@@ -8,7 +14,7 @@
 I set mdl1...
 ```
 
-Это соответствует команде:
+Это соответствует официальной команде Pearl:
 
 ```powershell
 prlctl --wallet signmessage "prl1..." "I set mdl1..."
@@ -105,7 +111,7 @@ prl_multi_2+mdl_5vrk0m.txt
 
 Ошибка означает, что скрипт не смог прочитать параметры процесса Pearl Wallet.
 
-Чаще всего причина — Pearl Wallet и `start_MDL_sign.cmd` запущены с разными правами.
+Чаще всего причина: Pearl Wallet и `start_MDL_sign.cmd` запущены с разными правами.
 
 Что сделать:
 
@@ -119,13 +125,13 @@ prl_multi_2+mdl_5vrk0m.txt
 
 ## Важно
 
-* Desktop Pearl Wallet должен быть открыт.
-* PRL-адрес должен принадлежать открытому кошельку.
-* Подпись не отправляет транзакцию в сеть.
-* Подпись не списывает PRL.
-* Не вводите seed-фразу и private key.
-* Для bundled CLI нужен 64-битный Windows.
-* Если Pearl Wallet требует пароль для разблокировки, пароль вводится только в самом Pearl Wallet.
+- Desktop Pearl Wallet должен быть открыт.
+- PRL-адрес должен принадлежать открытому кошельку.
+- Подпись не отправляет транзакцию в сеть.
+- Подпись не списывает PRL.
+- Не вводите seed-фразу и private key.
+- Для bundled CLI нужен 64-битный Windows.
+- Если Pearl Wallet требует пароль для разблокировки, пароль вводится только в самом Pearl Wallet.
 
 ## Безопасность
 
@@ -133,15 +139,17 @@ prl_multi_2+mdl_5vrk0m.txt
 
 Он не отправляет транзакции, не запрашивает seed-фразу и private key.
 
-Код открыт в папке проекта. Перед запуском его можно проверить вручную.
+Код открыт в репозитории. Перед запуском его можно проверить вручную.
 
 Если есть сомнения, проверьте код самостоятельно или дождитесь официальных инструкций.
 
 ---
 
-# Automatic MDL Address Signing Through Pearl Wallet
+## English Version
 
-This script automatically signs an MDL address through an open Desktop Pearl Wallet and saves the result to a text file.
+Automatic MDL address signing through an open Desktop Pearl Wallet.
+
+This script signs an MDL address through an open Desktop Pearl Wallet and saves the result to a text file.
 
 The script does not sign the bare MDL address. It signs this message:
 
@@ -149,7 +157,7 @@ The script does not sign the bare MDL address. It signs this message:
 I set mdl1...
 ```
 
-This matches the Pearl command:
+This matches the official Pearl command:
 
 ```powershell
 prlctl --wallet signmessage "prl1..." "I set mdl1..."
@@ -260,13 +268,13 @@ Main rule: Pearl Wallet and the script must run with the same permissions.
 
 ## Important
 
-* Desktop Pearl Wallet must be open.
-* The PRL address must belong to the opened wallet.
-* Signing does not send a transaction to the network.
-* Signing does not spend PRL.
-* Do not enter your seed phrase or private key.
-* The bundled CLI requires 64-bit Windows.
-* If Pearl Wallet needs a password to unlock the wallet, enter it only inside Pearl Wallet.
+- Desktop Pearl Wallet must be open.
+- The PRL address must belong to the opened wallet.
+- Signing does not send a transaction to the network.
+- Signing does not spend PRL.
+- Do not enter your seed phrase or private key.
+- The bundled CLI requires 64-bit Windows.
+- If Pearl Wallet needs a password to unlock the wallet, enter it only inside Pearl Wallet.
 
 ## Safety
 
@@ -274,7 +282,7 @@ The script only runs a local message-signing command through the opened Pearl Wa
 
 It does not send transactions and does not ask for your seed phrase or private key.
 
-The code is open inside the project folder. You can review it manually before running.
+The code is open in this repository. You can review it manually before running.
 
 If you have any doubts, check the code yourself or wait for official instructions.
 
@@ -292,4 +300,4 @@ The script only automates this local wallet command. It signs the required messa
 
 The script never asks for your seed phrase or private key. It only asks for the wallet password when Pearl Wallet needs to be unlocked for signing.
 
-The code is open in this folder, so anyone can inspect it before running. If you have any doubts, please check the code yourself or wait for official guidance.
+The code is open in this repository, so anyone can inspect it before running. If you have any doubts, please check the code yourself or wait for official guidance.
