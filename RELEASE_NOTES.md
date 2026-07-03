@@ -2,6 +2,8 @@
 
 This release contains a portable Windows script for signing an MDL address through an open Desktop Pearl Wallet.
 
+Desktop Pearl Wallet must be fully synchronized before signing.
+
 Get or verify the MDL address here:
 
 ```text

@@ -9,7 +9,8 @@
 1. Откройте Desktop Pearl Wallet.
 2. Выберите нужный кошелек.
 3. Дождитесь, пока кошелек полностью откроется.
-4. Не закрывайте Pearl Wallet до конца подписи.
+4. Дождитесь полной синхронизации Desktop Pearl Wallet.
+5. Не закрывайте Pearl Wallet до конца подписи.
 
 PRL-адрес должен принадлежать открытому кошельку. Если адрес не из этого кошелька, будет ошибка `no private key`.
 
@@ -123,7 +124,8 @@ This guide describes the whole process from the beginning. You do not need to co
 1. Open Desktop Pearl Wallet.
 2. Select the required wallet.
 3. Wait until the wallet is fully open.
-4. Do not close Pearl Wallet until signing is finished.
+4. Wait until Desktop Pearl Wallet is fully synchronized.
+5. Do not close Pearl Wallet until signing is finished.
 
 The PRL address must belong to the opened wallet. If the address is not from this wallet, you will get `no private key`.
 

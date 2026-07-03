@@ -26,8 +26,9 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 
 1. Windows PowerShell 5.1 или новее.
 2. Открытый Desktop Pearl Wallet с выбранным нужным кошельком.
-3. PRL-адрес, который принадлежит открытому кошельку.
-4. MDL-адрес со страницы `https://compute.modeloslab.xyz/wallet`.
+3. Desktop Pearl Wallet должен быть полностью синхронизирован.
+4. PRL-адрес, который принадлежит открытому кошельку.
+5. MDL-адрес со страницы `https://compute.modeloslab.xyz/wallet`.
 
 ## Перенос на другой компьютер
 
@@ -108,6 +109,7 @@ prl_multi_2+mdl_5vrk0m.txt
 ## Важно
 
 - Desktop Pearl Wallet должен быть открыт.
+- Desktop Pearl Wallet должен быть полностью синхронизирован.
 - PRL-адрес должен принадлежать открытому кошельку.
 - Подпись не отправляет транзакцию в сеть.
 - Подпись не списывает PRL.
@@ -151,8 +153,9 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 
 1. Windows PowerShell 5.1 or newer.
 2. Desktop Pearl Wallet must be open with the required wallet selected.
-3. The PRL address must belong to the opened wallet.
-4. The MDL address from `https://compute.modeloslab.xyz/wallet`.
+3. Desktop Pearl Wallet must be fully synchronized.
+4. The PRL address must belong to the opened wallet.
+5. The MDL address from `https://compute.modeloslab.xyz/wallet`.
 
 ## Moving to Another Computer
 
@@ -233,6 +236,7 @@ Main rule: Pearl Wallet and the script must run with the same permissions.
 ## Important
 
 - Desktop Pearl Wallet must be open.
+- Desktop Pearl Wallet must be fully synchronized.
 - The PRL address must belong to the opened wallet.
 - Signing does not send a transaction to the network.
 - Signing does not spend PRL.
