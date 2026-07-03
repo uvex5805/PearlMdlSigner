@@ -28,7 +28,6 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 2. Открытый Desktop Pearl Wallet с выбранным нужным кошельком.
 3. PRL-адрес, который принадлежит открытому кошельку.
 4. MDL-адрес со страницы `https://compute.modeloslab.xyz/wallet`.
-5. Заполненный `sign-input.txt` или ручной ввод адресов при запуске.
 
 ## Перенос на другой компьютер
 
@@ -42,7 +41,6 @@ RELEASE_NOTES.md
 STEP_BY_STEP.md
 start_MDL_sign.cmd
 sign-mdl.ps1
-sign-input.txt
 ```
 
 Папку `cli` тоже можно скопировать. Если её нет, скрипт попробует скачать официальный Pearl CLI автоматически.
@@ -53,20 +51,6 @@ sign-input.txt
 start_MDL_sign.cmd
 ```
 
-## Файл адресов
-
-В файле `sign-input.txt` укажите:
-
-```text
-MDL=mdl1...
-PRL=prl1...
-PRL=prl1...
-```
-
-Можно указать один или несколько PRL-адресов.
-
-Если файл пустой или в нём нет MDL/PRL, скрипт попросит ввести адреса вручную.
-
 ## Запуск
 
 Рекомендуемый вариант:
@@ -75,17 +59,9 @@ PRL=prl1...
 start_MDL_sign.cmd
 ```
 
-Запуск через PowerShell:
+Скрипт спросит MDL-адрес и PRL-адрес прямо в окне.
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\sign-mdl.ps1
-```
-
-Проверка без подписи:
-
-```text
-start_MDL_sign.cmd -CheckOnly
-```
+PRL-адресов можно ввести несколько: один адрес на строку. Пустая строка завершает ввод PRL-адресов.
 
 ## Результат
 
@@ -177,7 +153,6 @@ prlctl --wallet signmessage "prl1..." "I set mdl1..."
 2. Desktop Pearl Wallet must be open with the required wallet selected.
 3. The PRL address must belong to the opened wallet.
 4. The MDL address from `https://compute.modeloslab.xyz/wallet`.
-5. A completed `sign-input.txt` file or manual address input during launch.
 
 ## Moving to Another Computer
 
@@ -191,7 +166,6 @@ RELEASE_NOTES.md
 STEP_BY_STEP.md
 start_MDL_sign.cmd
 sign-mdl.ps1
-sign-input.txt
 ```
 
 You can also copy the `cli` folder. If it is missing, the script will try to download the official Pearl CLI automatically.
@@ -202,20 +176,6 @@ Run the script using:
 start_MDL_sign.cmd
 ```
 
-## Address File
-
-Fill `sign-input.txt` with:
-
-```text
-MDL=mdl1...
-PRL=prl1...
-PRL=prl1...
-```
-
-You can specify one or several PRL addresses.
-
-If the file is empty or does not contain MDL/PRL values, the script will ask for the addresses manually.
-
 ## Run
 
 Recommended option:
@@ -224,17 +184,9 @@ Recommended option:
 start_MDL_sign.cmd
 ```
 
-Run through PowerShell:
+The script will ask for the MDL address and PRL address directly in the window.
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\sign-mdl.ps1
-```
-
-Check without signing:
-
-```text
-start_MDL_sign.cmd -CheckOnly
-```
+You can enter several PRL addresses: one address per line. An empty line finishes PRL address input.
 
 ## Result
 
